@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	MixinFactory
 Summary:	Class::MixinFactory - class factory with selection of mixins
-Summary(pl):	Class::MixinFactory - tworzenie klas z wyborem klas towarzyskich
+Summary(pl.UTF-8):   Class::MixinFactory - tworzenie klas z wyborem klas towarzyskich
 Name:		perl-Class-MixinFactory
 Version:	0.92
 Release:	1
@@ -29,14 +29,14 @@ A factory is provided to generate the mixed classes with multiple
 inheritance. A NEXT method allows method redispatch up the inheritance
 chain.
 
-%description -l pl
-Ten pakiet u³atwia generowanie w czasie dzia³ania programu klas
-dziedzicz±cych z klasy bazowej i pewnego opcjonalnego wyboru klas
+%description -l pl.UTF-8
+Ten pakiet uÅ‚atwia generowanie w czasie dziaÅ‚ania programu klas
+dziedziczÄ…cych z klasy bazowej i pewnego opcjonalnego wyboru klas
 towarzyskich (mixin).
 
-Udostêpniony jest generator do tworzenia klas mieszanych z
-wielokrotnym dziedziczeniem. Metoda NEXT umo¿liwia wysy³anie metod po
-³añcuchu dziedziczenia.
+UdostÄ™pniony jest generator do tworzenia klas mieszanych z
+wielokrotnym dziedziczeniem. Metoda NEXT umoÅ¼liwia wysyÅ‚anie metod po
+Å‚aÅ„cuchu dziedziczenia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
