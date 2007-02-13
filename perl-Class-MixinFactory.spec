@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	MixinFactory
 Summary:	Class::MixinFactory - class factory with selection of mixins
-Summary(pl.UTF-8):   Class::MixinFactory - tworzenie klas z wyborem klas towarzyskich
+Summary(pl.UTF-8):	Class::MixinFactory - tworzenie klas z wyborem klas towarzyskich
 Name:		perl-Class-MixinFactory
 Version:	0.92
 Release:	1
