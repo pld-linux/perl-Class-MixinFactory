@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Class
 %define		pnam	MixinFactory
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::MixinFactory - class factory with selection of mixins
 Summary(pl.UTF-8):	Class::MixinFactory - tworzenie klas z wyborem klas towarzyskich
 Name:		perl-Class-MixinFactory
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	577d76cdc3c5b0c313634f783c96c767
+URL:		http://search.cpan.org/dist/Class-MixinFactory/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
