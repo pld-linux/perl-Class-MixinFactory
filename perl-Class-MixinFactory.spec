@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	MixinFactory
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::MixinFactory - class factory with selection of mixins
 Summary(pl.UTF-8):	Class::MixinFactory - tworzenie klas z wyborem klas towarzyskich
 Name:		perl-Class-MixinFactory
