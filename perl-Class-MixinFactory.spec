@@ -8,7 +8,7 @@ Summary:	Class::MixinFactory - class factory with selection of mixins
 Summary(pl.UTF-8):	Class::MixinFactory - tworzenie klas z wyborem klas towarzyskich
 Name:		perl-Class-MixinFactory
 Version:	0.92
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
